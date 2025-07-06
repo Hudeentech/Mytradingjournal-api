@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "build": {
+
+      "src": "index.js",
+      "use": "@now/node"
+  },
   "routes": [
     { "src": "/api/auth(?:/.*)?", "dest": "/api/auth.js" },
     { "src": "/api/trades(?:/.*)?", "dest": "/api/trades.js" },
