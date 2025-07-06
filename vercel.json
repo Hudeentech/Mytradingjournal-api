@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/auth(?:/.*)?", "dest": "/api/auth.js" },
+    { "src": "/api/trades(?:/.*)?", "dest": "/api/trades.js" },
+    { "src": "/api/users(?:/.*)?", "dest": "/api/users.js" },
+    { "src": "/api/settings/target(?:/.*)?", "dest": "/api/target.js" },
+    { "src": "/api/health(?:/.*)?", "dest": "/api/health.js" }
+  ]
+}
