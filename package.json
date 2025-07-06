@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "vercel-build": "npm install && npm run build || true"
+    "build": "echo 'No build step required'",
+    "vercel-build": "npm install && npm run build || true",
+    "serve": "node index.js"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
