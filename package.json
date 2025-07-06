@@ -4,11 +4,11 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "build": "echo 'No build step required'",
     "vercel-build": "npm install && npm run build || true",
-    "serve": "node index.js"
+    "serve": "node app.js"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
